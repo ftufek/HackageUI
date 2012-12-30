@@ -6,6 +6,7 @@
     <title>hackage DB</title>
 
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <link href="./custom.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -19,6 +20,115 @@
     <![endif]-->
   </head>
   <body>
+  
+
+    <div class="container-narrow">
+
+      <div class="masthead">
+        <ul class="nav nav-pills pull-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Packages</a></li>
+          <li><a href="http://holumbus.fh-wedel.de/hayoo/hayoo.html">Hayoo!</a></li>
+          <li><a href="#">My Account</a></li>
+        </ul>
+        <h3 class="muted"><img src="logo.png" />HackageDB</h3>
+      </div>
+
+      <hr>
+
+      <div class="jumbotron">
+        <h1><img src="logo-big.png" />HackageDB</h1>
+        <p class="lead">HackageDB (or just Hackage) is a collection of releases of Haskell packages. Each package is in the Cabal format, a standard way of packaging Haskell source code that makes it easy to build and install.</p>
+      </div>
+
+      <hr>
+
+      <div id="pkgstats" class="row-fluid packages">
+        <div class="span6">
+          <h4>Recently Updated</h4>
+          <p>
+            <ul>
+              <li><a href="#">base</a> <strong>(30 min)</strong></li>
+              <li><a href="#">bytestring</a> <strong>(32 min)</strong></li>
+              <li><a href="#">containers</a> <strong>(43 min)</strong></li>
+              <li><a href="#">directory</a> <strong>(44 min)</strong></li>
+              <li><a href="#">filepath</a> <strong>(45 min)</strong></li>
+              <li><a href="#">aeson</a> <strong>(79 min)</strong></li>
+              <li><a href="#">attoparsec</a> <strong>(86 min)</strong></li>
+              <li><a href="#">parsec</a> <strong>(86 min)</strong></li>
+              <li><a href="#">mtl</a> <strong>(86 min)</strong></li>
+              <li><a href="#">network</a> <strong>(86 min)</strong></li>
+            </ul>
+            <a href="#">See more...</a>
+          </p>
+          
+          <h4>Most Downloaded (weekly)</h4>
+          <p>
+          <ul>
+              <li><a href="#">base</a> <strong>(2322)</strong></li>
+              <li><a href="#">bytestring</a> <strong>(1831)</strong></li>
+              <li><a href="#">containers</a> <strong>(1722)</strong></li>
+              <li><a href="#">directory</a> <strong>(1231)</strong></li>
+              <li><a href="#">filepath</a> <strong>(1686)</strong></li>
+              <li><a href="#">aeson</a> <strong>(1653)</strong></li>
+              <li><a href="#">attoparsec</a> <strong>(1412)</strong></li>
+              <li><a href="#">parsec</a> <strong>(1123)</strong></li>
+              <li><a href="#">mtl</a> <strong>(1012)</strong></li>
+              <li><a href="#">network</a> <strong>(412)</strong></li>
+            </ul>
+            <a href="#">See more...</a>
+          </p>
+
+        </div>
+
+        <div class="span6">
+          <h4>Most Depended Upon</h4>
+          <p>
+            <ul>
+              <li><a href="#">base</a> <strong>(340 dep.)</strong></li>
+              <li><a href="#">bytestring</a> <strong>(210 dep.)</strong></li>
+              <li><a href="#">containers</a> <strong>(180 dep.)</strong></li>
+              <li><a href="#">directory</a> <strong>(167 dep.)</strong></li>
+              <li><a href="#">filepath</a> <strong>(122 dep.)</strong></li>
+              <li><a href="#">aeson</a> <strong>(121 dep.)</strong></li>
+              <li><a href="#">attoparsec</a> <strong>(112 dep.)</strong></li>
+              <li><a href="#">parsec</a> <strong>(106 dep.)</strong></li>
+              <li><a href="#">mtl</a> <strong>(86 dep.)</strong></li>
+              <li><a href="#">network</a> <strong>(12 dep.)</strong></li>
+            </ul>
+            <a href="#">See more...</a>
+          </p>
+
+          <h4>Most Downloaded (yearly)</h4>
+          <p>
+            <ul>
+              <li><a href="#">base</a> <strong>(23122)</strong></li>
+              <li><a href="#">bytestring</a> <strong>(18231)</strong></li>
+              <li><a href="#">containers</a> <strong>(17422)</strong></li>
+              <li><a href="#">directory</a> <strong>(17231)</strong></li>
+              <li><a href="#">filepath</a> <strong>(16986)</strong></li>
+              <li><a href="#">aeson</a> <strong>(16553)</strong></li>
+              <li><a href="#">attoparsec</a> <strong>(14122)</strong></li>
+              <li><a href="#">parsec</a> <strong>(11231)</strong></li>
+              <li><a href="#">mtl</a> <strong>(10012)</strong></li>
+              <li><a href="#">network</a> <strong>(4312)</strong></li>
+            </ul>
+            <a href="#">See more...</a>
+          </p>
+
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="footer">
+        <a href="#">FAQ</a>
+        <a href="http://hackage.haskell.org/trac/hackage/wiki/HackageDB">Wiki</a>
+        <a href="#">Upload</a>
+      </div>
+
+    </div> <!-- /container -->
+
 
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.2.2/js/bootstrap.min.js"></script>
