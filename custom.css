@@ -42,3 +42,24 @@ body {
 .category.alert {
   padding: 1px 10px 1px 10px;
 }
+.categories {
+  overflow: auto;
+}
+.categories a {
+  float: left;
+  display: block;
+  width: 20%;
+}
+.filtering {
+  text-align: right;
+}
+#filtertxt {
+  margin-bottom: 0px;
+  width: 280px;
+}
+a.hidden {
+  display: none;
+}
+ul.packages {
+  list-style-image: url(cabal-logo.png);
+}
